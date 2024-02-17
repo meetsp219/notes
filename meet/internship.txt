@@ -1,0 +1,329 @@
+Meet Sanjaykumar Patel
+SVIT
+Sem 7
+********************************************
+- res : 
+	- flaticon.com :: get icons
+********************************************
+
+********************************************
+Day 1 : 26 May,2021
+Sagar Khatri
+********************************************
+
+- Android basics
+
+- History, versions, etc...
+
+- Android Architecture
+	- Application
+	- Application Framework
+	- Libraries
+	- Android Runtime
+	- Linux Kernel
+
+- Java basics
+	- OOPs concepts
+		- Objece, class, inheritence, polymorphism, abstraction, encapsulation
+		- access modifiers : public, private, protected, default(public/private)
+
+		- keywords
+
+- API
+- SDK
+
+- Android Studio setup
+
+- Install flutter plugin in andorid studio
+
+- firs app : Internship Batch 1
+
+- android basics:
+	- layouts
+	- themes
+	- manifest file
+
+- setting up avd
+	-pda
+
+complete all tasks given by developer
+and also
+create document for tasks
+
+inquiry google form from developer for internship extension
+
+- decompile
+
+task : setup android studio copy screenshot
+hello world code copy
+Name_CollegeName_Day1
+
+- task : done!
+********************************************
+
+
+
+********************************************
+Day 2 : 27 May, 2021
+********************************************
+topic:
+	- splash screen
+	- login form
+
+- setting app icon
+- Change app name (from resource string file)
+
+- svg file :: can change color in icons through xml
+
+- Creating splash Screen
+	- Layout
+	- ImageView
+	- Animation : alpha,zoom,scale,translate,rotate
+		- AlphaAnimation
+			- AlphaAnimation alphaAnimation = new AlphaAnimation(0,1);
+			alphaAnimation.setDuration(2500); splashImage.setAnimation(alphaAnimation);
+
+	- Hide Toolbar/ActionBar
+		- 2 ways:
+		NoActionBar in res/theme	//in whole app
+		getSupportActionBar().hide(); //in one activity
+
+	- new Handler.postDelayed{new Runnable(){...},2000};
+
+- Layouts
+	- RelativeLayout
+	- LinearLayour
+	- FrameLayout
+	- AbsoluteLayout
+	- GridLayout
+	- TableLayout
+
+- API :: just a talk
+	2 types:
+	- soft api
+	- restful api :: we will use this
+
+- task : done!
+********************************************
+
+********************************************
+Day 3 : 28 May, 2021
+********************************************
+topic:
+	- design login form
+
+Required Widget
+	- Layout
+	- TextView
+	- EditText
+	- Button
+	- Custom Border File
+	- Custom Button File
+	- Background
+	- Font Border
+	- Style for button,text,edittext
+
+- background/custombutton
+- backgroundTint = null
+
+used : 
+	- custom styles
+	- custom background using drawables
+
+- created custom shaped button and edittexts with custom borders
+
+********************************************
+
+
+
+********************************************
+Day 4 : 31 May, 2021
+********************************************
+- topics:
+	- click events
+	- changing screens
+		- common code
+
+- tasks : 
+	- onclick button
+	- validate email and password
+	- System.out.println
+	- log.xyz
+	- Toast
+	- Snackbar
+	- commonclass, common method
+	- home activity :: logged in activity
+	- signup acitivity
+	- back button enable
+		- onoptionitemselected
+
+aws is a server
+
+aws part 1
+aws part 2
+
+account
+ecw bucket
+price configuration
+where to ping(india, australia,etc..)
+
+
+ask faculty about last sem project
+so that you can start learning appropriate technology
+
+********************************************
+
+
+
+********************************************
+Day 5 : 1 Jun, 2021
+********************************************
+topics : 
+	- sign up form
+	- login alert
+
+- Alert Dialog
+	- Inbuilt
+	- Custom
+
+- changing button color in alert box
+	- use html :: Html.fromHtml("...")
+
+- uptill now this was system provided alert dialog
+- we can  also create custom alert dialog
+
+
+********************************************
+
+
+
+********************************************
+Day 6 : 2 Jun, 2021
+********************************************
+topics:
+	- populating spinner with values
+	- ArrayAdapter
+	- Date picker
+	- validate sign up data and redirect to Login activity
+
+********************************************
+
+
+
+********************************************
+Day 7 : 3 Jun, 2021
+********************************************
+topics:
+	- password eye
+	- recycler view
+		- linear
+		- grid
+		- horizontal(staggered)
+
+	- res : swagger ui
+
+	library for image : picaso grid
+
+	rem : password eye implementation
+ 
+
+********************************************
+
+
+
+********************************************
+Day 8 : 4 Jun, 2021
+********************************************
+- Recycler view
+
+- search android design dependency
+
+Edittext text watcher
+
+- implement search using Searchview and recycler view
+
+- rem : autocomplete textview
+
+********************************************
+
+
+
+********************************************
+Day 9 : 7 Jun, 2021
+********************************************
+- Sir just gave task:
+	- create products page (recycler view)
+
+
+********************************************
+
+
+
+********************************************
+Day 10 : 8 Jun, 2021
+********************************************
+- create products page (recycler view)
+
+
+********************************************
+
+
+
+********************************************
+Day 11 : 9 Jun, 2021
+********************************************
+- chat activity :: remaining
+- Create ProductActivity which displays details of a product on which user clicked
+
+********************************************
+
+
+
+********************************************
+Day 12 : 10 Jun, 2021
+********************************************
+- database
+- set up database in xampp
+- create api (for login and sign up)
+
+api testing ways:
+	chrome browser :: manipulating query string
+	swagger api
+	postman :: download
+
+done!
+********************************************
+
+implement estatus in database and login api
+task :: submit all days tasks in word file
+
+
+
+********************************************
+Day 13 : 11 Jun, 2021
+********************************************
+- connecting app to internet
+- fetching data form api
+
+create ConstantUrl file to store URL
+ipconfig
+ipv4 address
+
+- task : remaining!  :: implement this
+********************************************
+
+
+
+********************************************
+Day 14 : 14 Jun, 2021
+********************************************
+
+- native vs cross
+
+task :
+	- flutter setup
+	- setup 000webhost
+
+
+********************************************
+

@@ -1,0 +1,132 @@
+NOTES:
+
+Resources:
+	- w3schools.com (for HTML and CSS)
+	- css-tricks.com (for CSS)
+	- unsplash.com (free images)
+	- paletton.com (for picking colors)
+	- Google fonts (for fonts)
+	- flexbox (search css tricks flexbox)
+	- w3schools (for finding supporting browsers for CSS elements
+	  and also prefixes for several browsers)	
+	- caniuse.com (for finding browsers supporting a particular CSS 
+	  element)
+	- Bootstrap(getbootstrap.com), foundation
+
+	- mailchimp (for collecting emails and creating mailing groups - i.e. subscribing functionality)
+	- animate.css
+	- creative tim
+	- zero to mastery slack (website like github for asking questions)
+ 
+html tags:
+	headings(h1..6)
+	p
+	b,i,u
+	strong,em
+	ol,ul,li
+	br,hr
+	img
+	a
+
+CSS important selectors: <!-- at 02:28 -->
+	.class									\\ used to specify a group of elements
+	#id 									\\ used for specific id. can be used only once	
+	*										\\ specifies all elements of a page
+	elements 								\\ a specific html element
+	element, elements 						\\ multiple elements
+	element element 						\\ elements in an element
+	element > element 						\\ immediate elements in an element
+	element + elements 						\\ element occuring after given element
+	:hover									\\ for specified event in any element
+	:first-child							\\ first child of given element
+	:last-child								\\ first child of given element
+	!important (not recommended)			\\ must be implemented, nothing can override it.
+
+	order of selectors:
+		- specificity
+		- importance
+		- source order 
+
+some imp properties related to text and images:
+	- in the snapshot
+
+-Box model(margins,border,padding,content)
+
+px vs em vs rem:
+	2px = pixels
+	2em = value * size of containing element
+	2rem= value * size of root element(<html>)
+<!-- 3:05 over -->
+
+- Critical render path
+- we can use online minify tools for minifying css and javascript 	files (i.e. removing all white spaces from file, for decreasing	  size and enhancing performance)
+
+- flexbox (search css tricks flexbox)
+	(flexbox allows us to put content of our webpage at right place as we want)
+	- flexbox froggy (online game for learning flexbox)
+	- practice flexbox and overall designing
+
+- CSS 3
+	- quickly overview CSS 3 and its new features
+	- play with its new frequently used elements
+	- get overview of whole CSS 3 and play with it
+
+- Responsive UI (introduction)
+<!-- 3:27  practice remaining from last checkpoint-->
+
+- Robot friend example (just practice alternative for it)
+<!-- 3:28 -->
+
+-bootstrap
+	- download bootstrap files setup environment
+	- quickly get overview of bootstrap(getbootsprap.com & 
+	  w3schools) and use some of its useful components
+
+<!-- 3:41 -->
+
+- bootstrap layouts (screen divided into 12 columns)
+
+- startup landing page (mailchimp - 3:50)
+- hosting website online (using github - 3:56)
+- animate.css (4:00)
+- creative tim (4:06)
+
+
+- career of a web developer (4:08)
+
+
+
+
+
+
+Search:
+-html forms, and its elements
+-div,span (search more for meaning)
+-html5 w3schools
+-quickly explore html
+
+-quickly explore CSS
+-see CSS cheatsheet and search and play with its elements
+-get to know often used CSS elements, properties & its values and play with it
+-create webpage/s using major parts of CSS
+
+
+-flexbox
+- CSS 3
+	- quickly overview CSS 3 and its new features
+	- play with its new frequently used elements
+	- get overview of whole CSS 3 and play with it
+- practice CSS 3 elements
+- practice any altrnative for robot friend example
+
+
+/*
+* PART 1 COMPLETED (4:30)
+*/
+
+
+video index
+
+section 1 to 12 continuous in part 1
+section 13 to 21 continues in part 2 at 3:21
+section 22 to 24 at start of part 2

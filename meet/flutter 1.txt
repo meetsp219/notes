@@ -1,0 +1,1011 @@
+******************************************
+RESOURCES
+******************************************
+res:
+	- draw.io :: make flowcharts
+	- appicon.co :: to generate app icons
+	- icons8.com :: images & icons
+	- vecteezy.com :: images & icons
+	- canva.com :: designing tool
+	- flutter layout cheatsheet : https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
+
+	- material.io :: colors & icons
+	- materialpalette.com :: colors & icons
+	- dartpad :: online dart compiler
+	- pub.dev/packages/ :: dart packages
+	- https://freesound.org/ :: free sounds
+
+	- dribbble.com :: design inspiration
+	- flutter cookbook :: flutter demonstrations
+	- colorzilla : browser extension to pick up colors
+
+	- flutter youtube channel (added by me)
+
+	- sketch(mac) :: designing software
+	- colordropper tools (windows)
+	- search 'rgb to hex' on google (color tools)
+
+task:
+	- practice layouts from above medium.com link
+	- figure out why apps are not working in phone
+	- review module 10 notes
+	- read about keys and watch emiley video
+	- read more about theme and themedata and get it clear in your mind
+	- review notes and learnings till now (especially this module-10
+	- figure out why some apps are not working in mobile
+
+	- rem : border and other styling of textfield in weather app
+	- review the module
+	- quick review notes and learning till now
+
+
+	- go through module notes and get it all clear and refactor notes
+	- refactor whole notes and make whole course clear by bit of a revision
+	- publishing app
+	- read more in section 17 articles and make notes if required
+	- start making your next app!
+
+____________________
+TIPS (for course)
+
+#don't copy code, instead watch whole tutorial and then implement it
+
+#cornell note taking system i.e. take notes
+
+#adjust video speed according to your pace
+
+#don't skip course parts
+
+#bookmaring very difficult parts (mark for review)
+	(or write what your struggled with)
+
+#you will get stuck at some point!
+	it's a universal part of programming
+	think like you are a fully fledged programmer
+	and use google and stackoverflow
+*******************************************
+
+
+
+*******************************************
+MODULE #1
+*******************************************
+Anatomy of flutter:
+
+	1. scaffold : just a blank screen for our app
+	2. appbar : appbar
+	3. container : just a box which will contain content of app
+	4. column
+	5. row
+	6. widgets
+*******************************************
+
+
+
+*******************************************
+MODULE #2
+*******************************************
+setting up environment
+
+for windows:
+	1. install git
+	2. install flutter (just unzip)
+	3. install android studio
+	4. add flutter plugin to android studio
+
+for ios:
+	mac is necessary
+
+flutter commands: flutter doctor,--version
+
+done!
+*******************************************
+
+
+
+*******************************************
+MODULE #3
+*******************************************
+App : I am rich
+
+see again :
+	3.5 app icon (with resize)
+*******************************************
+
+
+
+******************************************
+MODULE #4
+******************************************
+Running your ap on a physical device
+just basic setup
+nothing much
+*******************************************
+
+
+
+******************************************
+MODULE #5
+******************************************
+app challenge : I am poor
+
+done!
+*******************************************
+
+
+
+******************************************
+MODULE #6
+******************************************
+- getting project from git(hub) to android studio
+
+- hot reload vs hot restart vs cold load
+	- for hot reload, we need to use stateless/stateful
+
+- container widget
+	- basics
+	- SafeArea()
+	- only one child
+	- margin: EdgeInsets.all(20),
+    - padding: EdgeInsets.all(20),
+
+- rows and columns
+	mainAxisAlignment: MainAxisAlignment.start
+	crossAxisAlignment: CrossAxisAlignment.center
+
+- app : layout challenge
+
+- ctrl + q :: quick docs
+
+- using custom fonts
+
+- app : mi_card (business card)
+
+- used:
+	- rows & cols
+	- margin & padding
+	- custom fonts
+	- card
+	- list tile
+
+done!
+*******************************************
+
+
+
+******************************************
+MODULE #7
+******************************************
+- app : dicee-flutter
+
+- Expanded(flex:1)
+- FlatButton(OnPressed: (){...})
+
+- functions
+- variables
+- datatypes
+	- dynamic type
+
+	search : var vs int/string vs dynamic-dart
+
+
+- stateless vs stateful widgets
+	stateless : has no state/data to change
+	stateful : maintains state/data that changes
+
+- import 'dart:math', Random no. generation
+
+- Understood concept of how flutter separates designing in build() and the processing can be done in rest of functions in the class.
+
+done!
+
+- [SOLVED]que : why cant we put repeated widgets in function?
+
+tips :
+	- we procastinate
+	- e.g. feeding into perfectionism or preparing befor actually doing some task
+	- to get rid of it, just start the thing you want to do quickly as it is.
+	-  use pomodoro technique
+******************************************
+
+
+
+******************************************
+MODULE #8
+******************************************
+app challenge : Magic 8 Ball
+done!
+
+- new learning :create stateless > create stateful (in this example)
+******************************************
+
+
+
+******************************************
+MODULE #9
+******************************************
+- app : xylophone
+
+- Working with packages
+
+- functions (3 types)
+	- simple
+	- empty :: (){...}
+	- arrow
+
+- arrow functions
+	- int add(int a, int b) => a + b;
+	- '=>' is equivalent to { return ... }
+	it can only be used if function is single line
+
+- tip : just sit for 20 mins for work
+
+done!
+******************************************
+
+
+
+******************************************
+MODULE #10
+******************************************
+- app : quizzler
+
+- tip : //TODO: xyz...
+
+- Lists
+
+- VCS -> history :: use for reverting back to history
+
+- if else
+
+- Creating Quesion class
+
+- Classes & Objects
+
+- Abstraction
+	- modularising the app (quizzler)
+	- que : global variables in dart?
+
+- Encapsulation
+	- _varName :: refers to private (just prefix '_')
+	- same as java
+
+- Inheritance
+	- same as java
+
+- Polymorphism
+	- same as java
+	- overriding methods
+
+- que : context in flutter?
+
+- using rflutter package for alerts in app
+
+- constructors
+	- this keyword
+	- Constructor(this.a);(just a dart syntetic sugar)
+
+done!
+
+- tip : work in fasted state (eg. morning)
+******************************************
+
+
+
+******************************************
+MODULE #11
+******************************************
+Boss Level Challenge 2
+
+app : destini
+
+done!
+
+tip : practice as much as you can
+******************************************
+
+
+
+******************************************
+MODULE #12
+******************************************
+- app : BMI Calculator
+
+- flutter themes
+
+- Creating a custom widget
+	- extracting widget
+
+- @required annotation in constructor argument
+
+- final vs constant
+	- constant :: set value at compile-time that cannot be changed
+	- final :: can set value at runtime that can be initialized only once and cannot be changed
+
+- GestureDetector
+
+- Enum
+	- create :: enum EnumName {typeA, typeB, typeC}
+	- access :: EnumName.typeA
+	- used when we want more options than boolean(true/false). e.g for storing cars instead of using 1 for suv, 2 for convertible, use enum and create someting that can actually hold cars.
+	e.g. enum Car{SUV,convertible,hatchback}
+	access :: Car.SUV
+
+	- i.e enum is used to create a custom datatype and its possible values
+
+	- its mindblowing!
+
+- Ternary operators
+
+- Functions as arguments
+	- to pass simply pass function name without '()'
+	- e.g calculate(1,2,add);
+	- calculate(int a, int b, Function fun){}
+
+	- function as variables
+	- e.g Function f = (args){...}
+
+- we can create top level functions outside any class
+
+- creating a dedicated Constants file
+	- constant starts with k (just a naming convention)
+
+- Slider widget
+	- very simple
+
+- Customizing flutter widgets
+	- for this you can always read documentation
+	- we simply need to change inbuilt properties of inbuilt theme of a particular widget
+
+	- of(context) :: this will copy the theme of nearest parent up in the widget tree and then it can be customized with copyWith(...)
+	e.g :: Theme().of(context).copyWith(...)
+
+__________
+- que : how do you know how to use SliderTheme to customise slider?
+
+(guess)
+- ans : Theme and ThemeData class
+- task (copy): read more about theme and themedata and get it clear in your mind
+
+- Any design you can think of is possible to build in flutter either by using inbuilt widgets and theme, building customized widgets by combining inbuilt widgets or creating your very own widgets
+__________
+
+- Composition vs inheritance
+	- 
+	- here we created a roundicon button from very scratch using RawMateialButton
+	- in same way we can create anything we can think of
+
+__________
+	- think and add 1-2 lines to this part
+__________
+
+- Routes & Navigation :: Multi-Screen app
+	- Route :: page/screen/activity(in android)
+	- Navigator :: helps to navigate between screens
+
+	Navigator.push(context,MaterailPageRoute(builder: (context){return Screen2;}));
+	or
+	Navigator.pushNamed(context,'/Screen2');
+
+	Navigator.pop();
+
+	create route map for complex apps
+	route:{'/screen2':(context)=>Screen2();}
+
+	initialRoute: '/'
+
+- context :: refers to location of widget in widget tree(not sure)
+
+- Maps
+	- Map<keyType,ValueType> mapName{key:value}
+	- mapName[key]
+	- print(mapName.values)
+
+__________
+- que :: why i am able to go back from result page to input even if its the intital page set in main()?
+
+
+- que/thought : here designing is done first and then functionality is added
+while i was adding funcitonality first  and then designing
+so, what is  the correct way?
+__________
+
+tip : nobody knows everything in a technology, you learn as you go. so dont be underconfident that you know very little or nothing. howmuch ever you learn, there is always a lot remaining and this overwhelmes everyone, even the smartest people
+
+done!
+******************************************
+
+
+
+******************************************
+MODULE #13
+******************************************
+app : Clima (weather)
+
+- geo_locator package and its usage
+
+- getting location permission for android and ios
+	- in andorid just add uses-permission in manifest
+	- in ios add permission key and reason in plist
+
+- synchronous vs asynchronous programming
+	- sync : everything happens in a given sequence(line by line)
+	- async : not necessary that everything happens in line.
+	e.g if a line has to wait for image to load, the following lines will be executed and the image will be displayed once it is loaded
+	
+	- how to use async programming?
+		- async
+			- just a modifier used to indicate async function
+		- await
+			- tells to wait until the line/task is completed
+			- waits until the future promised is received (this is my interpretation)
+		- Future
+			- It is actually nothing at current time but instead a promise for something that will exist in future
+
+
+		- async function always returns Future<>
+
+		- task : just read/revise and make these concept very clear in your mind.
+
+	- sleep(Duration(seconds:2));
+
+- running just a dart file in android studio
+
+- Widget Lifecycles
+	
+	- initState() :: as soon as screen in initialized
+	- build() :: called everytime to display updated ui
+	- deactivate() :: called before screen is destroyed
+
+	- there are other lifecycle methods but these are what you will need in most of the cases
+
+- exception handling
+	- try{...}catch(e){...print(e)}
+	- throw 'exception description'
+
+- var ?? default_value :: returns value of var if it is not null else returns default_value.
+This is called Null Aware operator
+
+- APIs
+	- basics of what is an api
+	- an api is basically a set of commands,functions,protocols, and objects that programmers can use to create softrare
+	or
+	interact with an external system
+
+- networking using http package
+	- import 'http/http.dart' as http
+	- http.Response response = http.get('url');
+	- response.body
+	- response.statusCode
+		- meaing of different status codes:
+			- 1xx : hold on
+			- 2xx : here you go
+			- 3xx : go away //not authorized
+			- 4xx : You screwed up
+			- 5xx : I screwed up
+
+- res:
+	- openweathermap api :: weather api
+	- idea :: list all the packages used
+
+- JSON formatted API response
+	- JSON refers to JS object notation
+	- it is a set of key:value pairs
+	- here value can again be a set of key:value pairs
+
+	- res : JSON viewer awesome :: JSON viewer browser extension
+
+	- import 'dart/convert'
+	- int temp = jsonDecode(data)['weather'][0]['temp']
+	- tip :: instead of using a particular datatype, use var (i.e dynamic type).
+
+- refactor code!
+	- networkhelper
+	- location
+	- weather
+		
+- adding a spinner while data is being loaded
+	- use package
+
+- passing data to a state object
+	- by using widget property in state object
+	- task : understand it completly and write down logic behind it
+
+- in emulator, to reflect upadted location in our app, just open google maps app and locate button once.
+
+- tip(my) :: instead to writing try/catch in all over the places, write it in the place where you are actually going to use the data.
+
+- refactoring the location methods
+
+- thought :: here in this app also the design was provided first and then we added functionality to it.
+
+- TextField
+
+- passing data backwards through Navigation stack
+	- Navigator.pop(context,data);
+	- to get it in previous screen simply use
+	Future data = Navigator.push(....);
+
+- tip : Mixing knowledge is a great way of learning beacuse it solidifies the knowledge by connecting concepts with one another in contrast to learning something in capsule(e.g just learning loops and conditional statements in isolation)
+
+res :: spinkit package
+
+done!
+******************************************
+
+
+
+******************************************
+MODULE #14
+******************************************
+- Bitcoin ticker
+
+- DropDownButton widget
+
+- Loops
+	- simple for loop
+	- for(x in list) loop
+
+- using loops to create multiple widgets (list)
+
+- Introduction to cupertio widgets :: ios style widgets
+	- Picker widget
+
+- import '...' show OnlyThisPackage.dart
+- import '...' hide OnlyThisPackage.dart
+
+- Building platform specific UI(ios & android)
+	- just write different code for different platforms (probably by using functions) and call the appropriate function based on which platform the app is running on.
+
+- Build Bitcoin ticker app on own as a challenge
+	- use coinapi.io as bitcoin data api
+	- get fully functional app step by step
+
+- tip : when feeling frustrated, just take a break, go for a walk or do anything else and take a break.
+sleep will give you solutions.
+
+- done!
+
+steps rem : 
+	- dropdown button
+	- picker
+	- to check platform - dart.io Package class
+	- use coinapi.io
+	- (just complete app challenge then done)
+
+	- ios picker text and ??value??
+	- already picked item
+
+	- my code is differen form the given final code but its still working perfectly fine
+
+	- But still the given final code in resources is worth looking
+
+	- all done!
+
+done!
+******************************************
+
+
+
+******************************************
+MODULE #15
+******************************************
+- app : flash chat (allows group chat)
+
+- dart keywords
+	- static keyword
+	- static const String id = 'welcome_screen'; :: good way to create routes
+
+	- if we use '/route_name' in routes, there has to to a '/' ie empty forward slash otherwise this will crash the app
+
+- Animations
+	- Hero animations
+		- These are the animations that smoothly transit from one screen to other screen as it is
+		- really very very simple to implement
+
+		- 3 ingredients:
+			- Hero widget with same tag on both screens
+			- similar components
+			- use Navigation to transit between screens
+	 
+	 - custom animations
+	 	- 3 ingredients : (for any animation)
+	 		- a ticker
+	 			- time
+	 		- Animation controller
+	 		- Animation value
+
+	 	steps:
+	 		- create animation controller with duration and vsync
+
+	 		- controller.forward() :: count from 0 to 1
+	 		- controller.addListener((){
+	 			setState((){})
+	 			print(controller.value)
+	 			})
+	 		- and use controller.value anywhere youwant
+
+	 		- we can also set many other properties of 			animation controller
+	 		- e.g set height/width/anyProperty of a 		 widget/image/anything as controller.value
+	 		- 
+	 		- till now we saw linear animations ie. 		 controller.value was changing evenly
+
+	 		- Another type is curved animations ie 			 controller.value changes unevenly (in 			 some pattern)
+	 			change animation value along a curve
+	 		- steps:
+
+	 		- Create Animation animation
+	 		- animation = CurverAnimation(parent: 			 controller, curve: Curves.decelerate);
+	 		- use animation.value whereever you want
+
+	 		- controller.reverse(from : 1) is also 			 possible
+
+	 		- animation.addStatusListener((status){
+	 			if(status ==AnimationStatus.dismissed){
+	 				controller.forward()
+	 			}
+	 			if(status == AnimationStatus.complete){
+	 				controller.reverse(from:1)
+	 			}
+	 		})
+
+	 		- we need to dispose controller in dispose 			method otherwise it will remain and 			 persist forever and use up resources
+
+	 		- color tween animation
+	 			it has only begin and end value
+	 			eg:
+	 			ColorTween(begin:Colors.red, 					end:Colors.blue).animate(controller);
+
+	 			use animation.value in any widget's 			color/background color property
+
+	 - task :: read animations documentation page and get it clear
+
+- Mixins
+	- a way of reusing a class's code in multiple class hierarchies
+	- using mixins we can take out come common functionalities shared by multiple class and then use it whenever needed
+	- its like learning a new skill besides inheriting
+
+	- que :: what if multiple mixins used has method with same name?
+
+- prepaked animations :: animation packages
+	- here used animated_text_kit
+	- we can use any of the available packages to get any type of animation we want in any of our app.
+
+	- 2 sides: fully customizable (above), using packages, (what about Hero animation? which one is that (category?)?)
+
+- code refactoring
+
+- understood copywith(...), it is used to make just specified changes
+
+	- not got 1 thing :: why we used extract widget in case of buttons and used constant in case of textfield?
+
+thought :: compare painting and creating apps
+
+- Firebase
+
+- 2 options for saving data
+	- locally on device
+	- on cloud ::(e.g firebase)
+
+- There are many things firebase can do but we currently are concerned with Cloud Firestore to store data and Authentication to authenticate users
+
+- Setup firebase app for ios and android
+
+- add firebase flutter packages to use in our app to interact with firebase services
+packages:
+	- firebase_core
+	- firebase_auth
+	- cloud_firestore
+
+	bug solved :: Firebase.init(); :: call once in app
+
+- Registering & Authenticating users with Firebase Auth
+	- Firebase.init() :: only once in app
+	- _auth = FirebaseAuth.instance;
+	- _auth.signUpWithEmailAndPassword(...)
+	- _auth.signInWithEmailAndPassword(...)
+	- _auth.signOut()
+
+- Showing spinner while user waits
+	- use package:
+		- modal_progress_hud
+
+- Saving data into Cloud Firestore
+	- setup Firestore collection (and fields)
+	- _firestore = FirebaseFireStore.instance();
+	- _firestore.collection('abc').add({map});
+
+- thought :: know more about NoSQL databases
+
+- getting data from cloud firestore
+	- await _firestore.collection('..').getDocuments();
+	- for(message in messages.documents){message.data}
+
+	- void getMessages() async {
+    	var messages = await _firestore.collection(		'messages').get();
+    	for (var message in messages.docs) {
+      		print(message.data());
+    		}
+  	   }
+
+	- watch again for stream part and also perform practical
+	
+- streams
+	- stream is basically a list of futures
+	- by subscribing to stream we get to know all changes in given collection
+	- subscribe by : 
+	- var snapshots = _firestore.collection('..').snapshots();
+
+	- await for(var snapshot in snapshots){
+		for(var message in snaphot.documents){
+			print(message.data)
+		}
+	}
+	//here we get message that is newly added but we are intentionally printing all the messages again and again
+
+	- here, in case of any changes, we get notified and all of the results are printed again.
+
+	- in order to understand this, we need to understand streams
+
+	- streams in detail:
+	
+	- resturant analogy
+	- japanese noodles in bamboo analogy
+	- matrix of types of data analogy
+		- String
+		- Future<String>
+		- List<String>
+		- Stream<String>
+
+	- a stream is basically a pipeline of incoming data in which we get data as it is added into it
+
+______________________________________________
+/* I struggled with this stream builder part*/
+
+/*****Formerly used but later changed to Stream Builder
+void getMessages() async {
+    var messages = await _firestore.collection('messages').get();
+    for (var message in messages.docs) {
+      print(message.data());
+    }
+  }
+
+  void getMessageStream() async {
+    print('getmessagestream');
+    await for (var snapshot in _firestore.collection('messages').snapshots()) {
+      textList = [];
+      for (var msg in snapshot.docs) {
+        print(msg.data());
+        setState(() {
+          textList
+              .add(Text("${msg.data()['text']} from ${msg.data()['user']}"));
+        });
+      }
+    }
+    print('getmessagestream over');
+  }
+*****/
+
+- Creating widgets from incoming messages:StreamBuilder
+
+	- StreamBuilder :: a widget
+
+	- StreamBuilder<QuerySanpshot>(
+		stream: _firestore.collection('messages').snapshots();
+		builder: (context,snapshot){
+			if(!snapshot.hasData){
+				return Center{
+					child: CircularProgressIndicator(
+						backgroundColor = Colors.blue;
+					),
+				}
+			}
+			else{
+				final messages = snapshot.data.documents;
+			
+				List<Text> messageWidgets = [];
+				for(var message in messages){
+					String messageText = message.data['text'];
+					String messageSender = message.data['user'];
+					messageWidgets.add(Text('$msg from $user'));
+				}
+				return Column(
+					children: messageWidgets;
+				)
+			}
+		}
+	)
+______________________________________________
+
+- flutter ListView
+	- Listview is a simple scrollable widget with children in it similar to rows and cols
+
+- redesigning the chat screen messages
+	- here we redesigned how messages/listview items look in the app (we created MessageBubble)
+
+- Different UI for different senders
+	- Here we made some changes in chat screen so that our messages are placed on right side and other's messages are placed on left (with little different look for both).
+
+
+- setting/changing Cloud Firestore authorisation and security rules
+
+
+- tip : importance of sleep :: it is must to learn new things and do creative work. so make sure you get good sleep every night and if required wind up everything an hour before bedtime.
+
+
+tasks : 
+
+	- go through whole code step by step and try to understand all things
+
+	- go through whole module notes and try to understand all things
+
+	- get whole module cleared and make proper list of things not understood and also refactor this module notes.
+
+done!
+******************************************
+
+
+
+******************************************
+MODULE #16
+******************************************
+- app : Todoey
+
+- design Todoey app
+
+- adding bottom sheet
+	- showModalBottomSheet() :: to add bottom sheet in our app, you can always read docs to know more about it
+
+- tip : 
+	- in case you dont remember which properties widget has, just press ctrl and hover over the Widget name, list will pop up
+	- in case you need more documentatin on any widget or anything, just bring cursor in the name and go to view > Quick documentation (android studio)
+
+- task :: make bottom sheet sit just above keyboard(given in resources pdf)
+	- done using MediaQuery.of(context)...
+	- seen from resources
+
+- app designed!, now just make it work in later part.
+
+- State management
+
+- What is state?
+	- values of all the variables that together	make up the user interface
+
+	- e.g value of checkbox is its state
+
+	- local state vs global state
+		- setState(){}
+	
+	- Stateless vs stateful widgets
+		- stateless widgets : are destroyed and rebuilt again whenever some change is to be made because its cost is very low
+
+		- stateful widgets : are not destroyed and rebuilt, instead it maintains state which can be changed
+		once we are done with changing the properties of the state object, then we make a copy of it and that is our  stateful widget
+
+- create model(using class) for data to make it more dynamic
+
+- we can set default value of an argument in a function/constructor
+
+- lifting state up
+	- know reason behind it, it currently dont know
+	- reason : what if we want the state of a single widget to make changes in the state of other widgets in the widget tree?
+	- for this, we can lift up the state of both the widgets in a common ancestor(or parent)
+	- e.g checkbox's state striking off text example 
+
+- how callbacks work :: though it is not very very clear
+
+- ListView Builder
+	- build listivews completly dynamically
+
+	- can be used for large number of listitems in listviews even for infinite no. of items because it just renders the items that are visible on screen on given point of time
+
+	- only required property : indexed widget builder
+
+	- e.g:
+	ListView.Builder(
+		itemBuilder: (context,index){
+			return TaskTile(
+				taskTitle: tasks[index].name,
+				isChecked: tasks[index].isDone,
+			);
+		}
+		itemCount: tasks.length,
+	),
+	this is super easy!
+
+	- why callback is not working like this:
+	onChanged: checkboxStateChanged
+
+		but it is working in this manner:
+		onChanged: (val) {
+	          checkboxStateChanged(val);
+	    },
+
+	    resolve this and you will get a better understanding of callback functions
+	    (video 8  ending 3 mins
+
+	- In many cases in lifting up state, we need to use callback.
+
+	- Adding tasks in todoey app.
+
+- idea : create add task ui like any do app!
+
+- task : revise and make sure this module is clear(concept,videos,notes)
+
+
+//one step further in state management
+- Design Patterns,app architecture,state management
+
+	- Model View Controller (may be good for mobile apps)
+
+	- imperative vs reactive programming
+
+	- many ways to manage state :
+	e.g setState,Provider,MVC,lifting state up, Redux,Bloc,Mobx,etc
+
+	- They are just architectural blueprints which can be used according to our requirements
+
+	- currently the most flexible way of managing state is Provider package (and recommended by Google), BUT, remember that its not the only way.
+
+- Provider package
+
+	- understanding what the problem is.
+		- Example of app with 3 levels where root needs to pass data to level 3. Now doing this with lifting up the state approach and using callbacks is possible but it is quite painful
+
+	- using: (to read data)
+		- add dependency and import provider.dart
+		- use Provider<DataType> widget in as top level as possible and mention builder property
+		e.g. Provider<String>(builder: (context) => return 'hello')
+		- subscribe to this Provider<String> to get data anywhere in the app(even stateless widget) using Provider<String>.of(context) and we get the data
+
+		- but what about updating the data from bottom of widget tree?
+
+		- class ChangeNotifier
+
+		- ChangeNotifierProvider<Data>(
+			builder: (context) => 'hello'
+		)
+
+		Provider.of<Data>(context).text; //get data
+		Provider.of<Data>(context).changetText('something else');	//change data and notify
+
+		class Data extends ChangeNotifier{
+			String text = 'something';
+			void changeText(newText){
+				text = newText;
+				notifyListeners();
+			}
+		}
+
+	- Provider package is basically a wrapper around Inherited Widget class.
+	Have a look at documentation and know how it works under the hood.
+
+	- task : 
+		- use the exact multiple class example to understand the provider package
+		- watch video and look at mentioned documentation
+
+- using Provider package in Todoey app to:
+	- read tasks
+	- add tasks
+	- check off tasks
+	- delete tasks
+
+- Consumer<TaskData>{
+	builder: (context, taskData, child){
+		return ListView.builder.....
+	}
+  }
+  now use taskData as equivalent to Provider.of<TaskData>(context) in all of its child
+
+- its interestiong how getters and setters work in dart. have a look through it
+
+- UnmodifiableListView :: not given much attention
+
+- que : how to save the state data locally so that it persists even after closing app (sharedpreferences?)
+
+- tip : to solidify your knowledge, teach to others. that way you'll make sure that you actually understand the concept or not
+
+- final tip : discipline is the key. keep consistency. motivation is all about excitement that may be hign on some days and the opposite on other. but the discipline to sit for coding for 1 hour is the key to where you want to reach.
+
+done!
+******************************************

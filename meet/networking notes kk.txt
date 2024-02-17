@@ -1,0 +1,63 @@
+
+OSI Model:
+
+Application
+Presentataion
+Session
+Transport
+Network
+Datalink
+Physical
+
+
+TCP/IP Model:
+
+Application
+    -> User interacts
+    -> e.g. Whatsapp, browsers
+    -> where(it lies): Devices
+    -> Protocols
+    -> Client-Server Arctitecture
+Transport
+    -> TCP, UDP
+Network
+Datalink
+Physical
+
+
+Devices:
+    Repeater
+    Hub 
+        -> Active & Passive
+    Bridge
+    Switch
+    Router
+    Gateway
+    Brouter
+
+Protocols:
+    -> Web Protocols
+        -> TCP/IP
+            -> HTTP
+            -> DHCP
+            -> FTP
+            -> SMTP
+            -> POP3 & IMAC
+            -> SSH
+            -> VNS
+        -> TelNet
+        -> UDP : stateless connection
+    
+
+Socket:
+    -> Interface between the processes and the Internet
+
+Ports:
+    -> Ports tells us which application we are working with
+    -> Ephemeral ports
+
+
+HTTP
+    -> uses TCP
+    -> Stateless protocol
+    -> 

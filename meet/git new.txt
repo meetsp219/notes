@@ -1,0 +1,23 @@
+>git init
+>git status
+>git add .  OR >git add names.txt
+
+>git commit -m "any message for the commit"
+
+>git restore --staged names.txt
+
+>git log
+
+>git reset 8b35fb3c19ed9fc1a0238cd2a03abd391747c920
+
+>git stash
+
+>git puch origin master
+
+>git branch branchName
+
+>git checkout branchName
+
+>git merge branchName
+
+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

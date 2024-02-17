@@ -1,0 +1,251 @@
+App ideas:
+
+	-> Personal Hisab
+	-> English x Gujarati phrases (Helps to learn English)
+	-> Arpit sir app
+
+useful links:
+
+	-> soundbible.com : for free sound effects
+	-> unsplash.com : free backgrounds or images
+
+Keep in mind:
+	
+	-> Learn more about Regex
+	-> Learn more about JSON and api
+	-> Firebase
+
+
+The Complete Android N Developer Course Notes.
+
+1. what does the course cover:
+
+Free stuff:
+	1. got it : Book : how to earn 10000 while learning to code
+	2. aws assets
+	3. free graphical & sound assets remaining
+	4. 1 year free web hosting
+	5. 2 free cca certificates
+
+	done!
+
+2. Introduction to Andorid Studio
+
+	-> log.i("info","message");
+	-> TextView, Button, EditText, Toast, ImageView
+	-> currency converter app
+
+	done!
+
+3. Java Deep Dive
+
+	-> basics
+	-> list = new ArrayList();, .add, .remove, .get(0), list.toString().
+		List<String> list = new ArrayList<String>();
+	
+	-> Maps
+		Map map = new Hashmap();
+		map.put("key","value");
+		System.out.println(map.get("key"));
+
+		functions : map.toString(), map.remove("key"), map.size().
+
+	-> Higher or lower : simple app
+	-> App Number Shapes : simple app
+
+	done!
+
+4. Media Images, Video and Sound
+
+	-> Layout Basics (very very basic)
+	-> Animations
+		->fade animation : image.animate().alpha(0f).setDuration(1000);
+		->translation : image.animate().translationX(-1000f).setDuration(1000);
+		->rotation : image.animate().rotationXBy(-1000f).setDuration(1000);
+		->scale : image.animate().scaleXBy(1.1f).setDuration(1000);
+
+		->Translating something in the screen : setTranslationX() initially, then perform animation on some event or in onStart() method of activity.
+
+	-> Connect 3 game
+
+	-> VideoView, MediaController
+
+	-> Audio & seeking
+
+		-> MediaPlayer mp = MediaPlayer.create(this,R.raw.song);, .play, .pause, .stop, .seekTo(),...
+
+		-> Adding seekbar
+			->setMax(), setProgress(), onSeekBarChangeListener()
+		
+		-> Changing & managing system volume Audio Manager
+			-> audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+			-> getStreamVolume, MaxVolume, etc...
+			-> audioManager.setStreamVolume(STREAM_MUSIC,,),etc...
+			
+		-> Syncing audio play with the seekbar	
+			-> seekTo()
+			-> new Timer.scheduleAtFixedRate()... to set seekbar progress every second.
+
+		-> done! Nothing more!
+
+	-> GridLayouts : nothing
+
+	-> Basic Phrases App
+		-> very very basic (just tricky in how to get resource it nothing else, nothing to worry)
+
+	done!
+
+5. Advanced Android Features
+
+	-> ListView
+		-> ListView, ArrayAdapter : basic
+
+	-> App Times Table
+
+	-> Timers
+		-> way 1 : new Handler.post(new Runnable(){ run(){...} });
+		-> way 2 : new CountDownTimer(totalTimeToRun,Interval){...}.start();
+
+	-> App Egg timer
+		-> used just knowledge of Timers section and seekbar
+
+
+	-> Showing & Hiding UI elements : tests us & helps to know how to google, nothing new!
+
+	-> App Brain Trainer
+		-> It was awesome! showcases how complex tasks can be achieved with simplicity at its peak!
+		-> Because no new knowledge was used to build such complex looking app
+
+	-> Try and Catch : basics. NOTHING!
+
+
+	-> Downloading Web Content
+
+		-> AsyncTask<String(input),Void(process),String(output)> : to run task on separate thread
+		-> It is very simple to get content from web, and code is quiet understandable
+		-> We need to perform all this in AsyncTask class in doInBackground() method in try & catch.
+
+		-> CODE : 
+				URL url = new URL(urls[0]);
+                HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
+                InputStream inputStream = connection.getInputStream();
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                int data = inputStreamReader.read();
+                String result = "";
+                while(data != -1){
+                	char current = (char)data;
+                	result += current;
+                	int data = inputStreamReader.read();	
+                }
+                return result;
+
+          -> This will return whole result on calling task.execute().get() method.
+               
+
+	-> Downloading Images
+
+		-> It is very simple to get images from web, and code is quiet understandable
+		-> We need to perform all this in AsyncTask class in doInBackground() method in try & catch.
+		-> CODE : 
+				URL url = new URL(urls[0]);
+                HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
+                connection.connect();
+                InputStream inputStream = connection.getInputStream();
+                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+               	return bitmap;
+
+         -> Then just set returned bitmap to imageview resourse.
+         -> As simple as that.
+
+
+	-> Advance String Manipulation
+		-> Splitting
+			-> String names = "meet x patel";
+			-> String[] splitStr = names.split(" x ");
+			-> System.out.println(Arrays.toString(splitStr));
+		-> substring();
+		-> Regex : 
+			-> Its a very powerful thing which requires learning of its own differently.
+			-> But though whichever things are required for now, we get it
+			-> CODE :
+					String url = "mississippi";
+					Pattern p = Pattern.compile("mi(.*?)pi);
+			        Matcher m = p.matcher(url);
+			        while(m.find()){
+			            System.out.println(m.group(1));
+			        }
+			        O/P : ssissip
+	
+	-> App Guess The Celebrity
+		-> The code looks complicated, but it is not at all, just we downloaded html code of website 	and processed its information and also downloaded images. Rest all is simple logic.
+		-> It was not great way to rely for getting content from web. It was just for practice
+		-> It was very raw way of getting data from web.
+		-> So, never use this way to create any app, just know that this way also works.
+	
+	-> Processing JSON data
+		-> JSON is a standard way of passing data between websites or similar things on web.
+		-> We can receive data in JSON format form web and process it according to our requirements.
+		-> Below given is the basic code required to process JSON.
+		-> Just edit in for loop according to requirements.
+		-> CODE :
+				JSONObject jsonObject = new JSONObject(result);
+                String weather = jsonObject.getString("weather");
+
+                JSONArray jsonArray = new JSONArray(weather);
+                for (int i=0;i<jsonArray.length();i++){
+                    JSONObject jsonPart = jsonArray.getJSONObject(i);
+
+                    Log.i("main",jsonPart.getString("main"));
+                    Log.i("description",jsonPart.getString("description"));
+                }
+                //Log.i("weather",jsonObject.getString("weather"));
+
+         -> Nothing to worry about. Now you know how to do it, whenever required, just get it online.
+
+    -> App : Whats The Weather
+    	-> It is the simplest thing you can make through JSON, and it's awesome
+    	-> Nothing new, just used knowledge of previous lesson(JSON) and made an app with beautiful UI.
+
+
+6. Maps & Geolocation
+
+	-> For using google maps, nothing
+	-> Just make a new project with google maps activity and follow instructions.
+
+	-> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Permanent Data Storage
+
+	->
+
+8. Instagram Clone
+
+	->

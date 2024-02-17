@@ -1,0 +1,68 @@
+TypeScript - google
+
+Provides design patterns (inbuilt)
+Uses TypeScript
+A lot of tools
+Components are decoupled
+Markup is clean and simple
+Easy to test
+Multiple platforms
+Large community
+
+
+______________________________
+ng modules : Angular module
+
+root module -named app module
+
+
+Modules
+Template
+Metadata
+Service
+
+
+______________________________
+Components
+	- Html template
+	- Typescript class
+	- CSS selector
+	- CSS styles
+
+
+
+Lifecycle hooks :: lifecycle methods of components (functions similar to android lifecycle)
+
+Interpolation {{title}}
+
+components and templates
+	
+4 ways to communicate(between components):
+	- Binding
+	- Refrence
+	- Provider (service)
+	- Template Outlet
+
+
+
+
+
+
+
+_____________________________________________
+
+Basic project structure in angualr
+
+Interopolation {{title}}
+
+Property binding :: <p [id]="pid">		// id will get its value from component class
+
+Event listeners :: <button (click)="buttonClicked()"></button//this will call buttonClicked() method on click
+
+Directives :: *ngIf, *ngFor
+
+Dependency Injection
+
+Angular CLI
+First Party Libraries
+

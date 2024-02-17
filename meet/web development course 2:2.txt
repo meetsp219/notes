@@ -1,0 +1,210 @@
+/*
+* PART 2
+*/
+
+links:
+	- w3schools for javascript
+	- codepen (cool design code of others)
+	- developer.mozilla.org/en-US/docs/Web/Events
+		(reference for javascript events)
+	- babel (javascript compiler that makes converts new js code such that it works on all browsers)
+
+
+javascript basics:
+	- variables
+	- operators
+	- connecting js with html
+	- few inbuilt functions:
+		- alert()
+		- prompt()
+		- console.log()
+
+	- functions
+		- normal functions
+		- function expressions (anonynomous function)
+
+	- arrays
+		- all types (undefined,string, number, boolean, function, mixed)
+		- multi-dimentional array
+
+		- methods for arrays (shift,push,pop,concat, sort)
+
+	- objects
+
+	- loops
+		- for,while,do..while,forEach
+
+	- facebook2 app
+
+	- javascript keywords
+
+	- javascript basic(imp) topics cheatsheet(7:10)
+
+/*
+*	DOM (7:10)
+*/
+
+- Uses of DOM:
+	- add/remove/change html elements/attributes
+	- change all CSS styles
+	- React to existing html events 
+	- Create new html events in page	
+
+- Clear picture(working) of DOM:
+
+	- First the web browser receives htms and css files.
+
+	- DOM(document object - it is a tree like structure for our web page) reads our html and css file(s) and based on it, browser displays our web page
+
+	- Javascript file is read by the browser's javascript engine.
+
+	- Now, if javascript need to change anything in page, it will talk to DOM (using its document object)l
+
+	- So, using document object in javascript, we can manipulate DOM (i.e. structure of our html pages including styles)
+
+/****************************
+DOM Selectors:
+
+- getElementsByTagName
+- getElementsByClassName
+- getElementById
+
+- querySelector
+- querySelectorAll
+
+- getAttribute
+- setAttribute
+
+##Changing styles
+style.{property}  \\ok
+
+className \\best
+classList \\best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //Dangerous
+
+parentElement
+children
+
+## it is important to CACHE selectors in variables
+
+******************************/
+
+- DOM Events (7:36)
+
+	- reference to all events : developer.mozilla.org/en-US/docs/Web/Events
+
+- Todo list
+- Background generator (gradient) (8:04)
+  found:
+  	- createTextNode
+  	- textContent
+
+  (completed at : 8:22)
+
+  - JQuery
+  - Dev. funda. 5 (8:29)
+
+  <!--8:34-->
+
+
+
+
+
+__________________________________
+SECTION 11 (ADVANCED JAVASCRIPT) :
+__________________________________
+
+- Scope
+- Advanced control flow (skillped till 8:56)
+
+- ES5 and ES6
+
+	- babel (javascript compiler that makes converts new js code such that it works on all browsers)
+
+	- introduces new way for writing js code
+
+	- let, const
+
+		- let : creates new scopes if new curley braces starts
+		- const : once defined, can't be changed
+
+	- destructuring
+
+		- we can grab(extarct) object attributes easily
+			e.g.:const {rn,name} = obj;
+			//this will create new variables rn and name with value of attributes of same name in obj
+
+		- Also we can name object attributes dynamically.
+
+		- If we already have a constant or variable whose name and value need to be added as an object attribute, we can just specify its name.(9:13)
+
+	- Template Strings
+
+		- `hello ${name}` : python like strings
+
+	- Default arguments
+
+	- Symbol types
+		- let s = Symbol('anything');
+		- It is used to indicate uniqueness. i.e. two symbols cannot be same.
+		- Usually used to uniquely identify objects.	
+	- Arrow functions
+
+		- For me : you can call it as an ternary operator like function
+
+		- syntax:
+			const add = (a,b) => a+b;
+					_OR_
+			const add = (a,b) =>{
+				return a+b;
+			}
+
+	<!--9:23-->
+
+
+	- Advanced Functions
+
+
+
+
+
+
+
+
+
+
+
+
+19 Jan, 2022
+
+RES:
+- JSON Placeholder : fake online rest api for testing and prototyping
+- robohast.org : get robo images
+
+- stripe api : incorporate payments into website
+
+- twillio : send messages on phone
+
+
+section 21 : Backend basics
+
+- basics about how front-end and backend works in background
+- intro to MERN stack
+- intro to load balancing concept in case the app becomes a huge success
+
+
+section 22 : APIs
+
+- api key
+
+
+section 23 : final project SmartBrain Frontend
+
+- 
+

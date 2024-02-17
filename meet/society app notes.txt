@@ -1,0 +1,124 @@
+samaj{
+	private id autoincrement
+	name
+	description
+
+	addNewSociety()
+	deleteSociety()
+	editSociety()
+}
+
+person{
+	private id autoincrement
+	name
+	dob
+	permanent address
+	temporary address
+	contact no
+	work
+
+	//addNewPerson()
+	deletePerson()
+	editPerson()
+}
+
+family{
+	private id autoincrement
+	members: person[]
+	name: string = members[0];
+
+	addNewFamily()
+	deleteFamily()
+	editFamily()
+}
+
+editors
+
+//angular routing
+
+//
+
+
+components:
+
+person-list		 //will list all person with edit and delete buttons for each
+person-detail
+person-service //service
+
+data //file
+
+route: (/person)	//load person-list component
+	(/person/id)	//load person-detail  ///opens when pressed edit
+
+
+router outlet
+router link
+
+tasks:
+
+.- add link
+.- delete link
+.- push new item in list (after adding)
+.- github
+
+!!..data clone BUG...!!
+
+- put icon for male/female
+
+
+|using pipe|
+- if age>50
+	name.textcolor = navy blue
+if age>30
+	name.textcolor = green
+if age<30
+	name.textcolor = red
+
+
+->routerlink & router-outlet
+
+.->bind person with society objects (autoselect and changeable)
+.->create same for society
+->on society click :: display all persons belonging to that society
+
+https://stackoverflow.com/questions/52707918/webview-showing-err-cleartext-not-permitted-although-site-is-https
+
+
+
+
+- 6 digit id 010101 ///hold
+
+
+-save button
+
+tasks:
+- create family component (list all families)
+- family-detail component
+	- family name
+	- society
+	- personlist
+
+
+
+meet - those members who wants to advertise on samaj app - registration - 5000rs - 10 day ad, 10000 1 month, 20000-3 month ad and figure out other details
+
+
+plans :
+	- 10 days @5000
+	- 1 month @10000
+	- 3 months @20000
+
+get details
+	- order_id
+	- name of advertizer
+	- contact no.
+	- email
+	- banner (mention sizes)
+	- link (to divert) (if exists)
+	- start date
+	- payment_status
+
+	- continue (shows redirect to payment gateway)
+
+
+adrertise-registration

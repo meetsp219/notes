@@ -1,0 +1,128 @@
+To create/start a new repo	
+>git init
+
+.git folder is created
+
+get status of all untracked file or get status of whole git
+>git status
+
+
+add all untracted files to staging area (marriage example: bring guests on stage so that pic can be taken)
+> git add .
+
+commit the changes (marriage example: take photo of guests on stage)
+> git commint -m "commit message here"
+
+remove person from stage without taking photo i.e changes should not be saved
+> git restore --staged person.txt
+
+see history of commits
+> git log
+
+
+roll back to this particular commit. this will delete all other new commits made after mentioned commit
+> git reset ----HASH-CODE-OF-COMMIT-----
+
+
+send all staged changes to the backstage so the stage is clear as it was during last commit
+> git stash
+this is used after staging the required files to go to backstage
+to bring back all stashed files, use:
+> git stash pop
+
+send all backstage people home without taking photo i.e delete all changes in last stashed
+> git stash clear
+
+
+
+Github 
+	1. host your own project
+	2. rem
+
+
+attach .git url to a particular folder/project in our local machine
+> git remote add origin -----your .git url-----
+
+> git remote -v
+this will list all urls that are attached to a particular folder/project
+
+
+push the to origin(url) in main branch
+> git push origin main
+
+BRANCHING	
+
+create a new branch
+> git branch branchName 
+
+change HEAD to specific branch. this means, all the further commits will be made to this branch
+> git checkout branchName
+
+
+fork meaning :: copy a project on your github account (so that you can make changes in it, because you are not allowed to directly make changes in projects belonging to someone else's account)
+
+origin ::any folder that starts with your own account (in github)
+
+
+meaning :: unknown
+> git clone ----project/git url----
+
+
+upstream url :: from where you have forked a project
+
+> git remote add upstream ----.git url----
+
+
+pull requests :: 
+	suppose I've forked a project from a community and made some changes in some branch. Now I want that my changes should be visible in main project's main branch.
+Now, for this I need to create a pull request to the owner of main project to merge my changes to main project's main branch.
+This is called a pull request
+
+
+> git push origin main -f :: force push
+use force push when for example your machine don't have commits (e.g. in case you've rolled back) that exists in the origin commits.p
+
+
+make it more clear : pull requests
+
+
+
+> git fetch --all --prune  :: fetches all commits from main project to a forked project
+
+
+> git reset --hard upstream m/main
+56.00
+
+-----
+
+
+pull the code with changes from main branch from main(upstream) project
+> git pull upstream main
+now, our local folders will be in sync with main branch, but not the origin url, for which, we need to push the changes using:
+> git push origin main
+
+
+----that is about pull requests :58.35
+
+
+INTERMEDIATE CONCEPTS 59.45
+
+squashing your commits
+> git rebase -i --commit id----		here -i means interactive enviromnent
+this will open an interactive environment where we can either pick or squash all commits according to our needs
+squashing will merge commit to above picked commit
+this will basically remove unnecessary commits and merge all in single commit
+
+
+merge conflicts
+if two people made changes in same line of document, this will create conflict while merging
+git will ask which changes to keep
+after deciding, we need to _ & resolve conflict
+
+
+
+
+---
+git push --set-upstream origin week_2
+use this when new branch is created and we need to push it to origin
+---

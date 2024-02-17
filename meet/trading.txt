@@ -1,0 +1,139 @@
+Trading
+
+ep#1
+
+	⁃	Your needs per month x 6 = emergency fund (sort of)
+	⁃	80% investment, 20% trading of remaining money after expenses.
+	⁃	Fundamental vs technical analysis 
+	⁃	Trading is an intent to sell while investing is not.
+	⁃	Demand and supply
+	⁃	Eg. Big funds do not place whole order at once once they find a fundamentally strong company to invest in. They order over a period of time during which the stock price raises continuously.
+	⁃	Herd mentality
+	⁃	Book mention : madness of market by mackasey
+	⁃	Trading systems just mentioned 
+
+
+ep#2
+
+	⁃	Systematic vs discretionary/scalp trading
+	⁃	Your gut cannot be always right
+	⁃	Trading systems : success rate should be >50%
+	-	back testing
+	-	We will create trading systems but We first need to learn tools for doing so ie. technical analysis
+
+
+ep#3
+
+	- Technical Analysis
+	- History tends to repeat itself
+		- eg. Ac is cheap in winter and expesive in summer. it is repeated every year
+	
+	- There are 3 types of trends
+	- greed and fear manifests itself over long tern in 3 trends - bull, bear
+
+		- uptrend
+			- higher low
+		- sideway
+			- confusion
+		- downtrend
+			- lower highs
+	
+	- Markets discount everything
+		- when any news comes, the market already is reflecting it (in price)
+
+		- so, don't follow the news, follow the price.
+	
+	- How is more important than why
+
+	- Technical analysis is a study of price and patterns to gauge demand and supply, it analyses the past and doesn't predict the future.
+
+
+	- Types of price charts
+
+		- Line chart
+		- Candlestic basics
+		
+	- Candlestick patterns
+
+		Single Candelstick Pattern
+		- Hammer
+
+			- It indicates more demand, and if this happens in top 50 companies(with huge turnover), then it is not just a bunch of retail investors, it indicates institutional money coming in!
+
+			- when a pattern emerges in longer time frame, there is probably a lot of money behind it.
+
+			- It doesn't work all the time
+
+		- Inverted Hammer
+		- Marubozu
+		- Doji
+
+		Multiple Candelstick Pattern
+		- Engulfing (bullish)
+		- Bearish Engulfing
+		- Bullish Harami
+		- Morning star
+
+	
+	- point : price don't follow the news, news follow the price
+
+	- minute/hourly charts don't make sense, daily is good, weekly is even better 
+
+	- This was all on seeing just a candle or a group of candles.
+
+
+ep#4
+
+	- Technical Analysis-Chart Patterns and Price Action
+
+	- Support and Resistance
+		- you  need 2 points to draw it.
+
+	- Effect of round numbers on psychology
+
+	- This should be on weekly/monthly chart
+
+	- Polarity, breakout and breakdown
+
+	- Double top and double bottom patterns
+		- Continuation patterns
+		- Reversal patterns : M & W
+
+		- Now these are just one/two of many patterns avilable
+
+	- Now, all this is not quantified, it is discritionary, So, this is where indicators comes into play
+
+
+ep#5
+
+	- 
+
+
+I am currently a student trying to explore as much fields as possible through my interest in technology, reading, business and investment.
+
+Strength :  Interest in reading and learning through various means, quick learner, team player.
+
+Weakness : Still confused about it!
+
+
+Android - 7
+Java - 8
+Flutter - 6
+HTML, CSS - 8
+JS - 5
+Dart - 6
+C/C++ - 8
+
+
+Yes I often solve practice questions on Hackerrank.
+
+Also I got Best Coder SVIT, 2019 in college level coding competition - Cyclone
+
+
+I currently want to invest my time and energy in learning as much as I can in my field as well as other fields to take exposure and make the best choices I can in my life path
+
+I want to join Jeavio as an Software Engineer(Associate) because I presume that I will be able to learn so much form the experienced software engineers working at Jeavio.
+
+Creating software/apps is a form of creativity for me. And it may sound like work to others but for me it is like playing or any other form of creative work(like painting) and I just love it.
+
+And thus I think I am definitely suitable for this post. 
