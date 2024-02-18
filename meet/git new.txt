@@ -19,5 +19,3 @@
 >git checkout branchName
 
 >git merge branchName
-
-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
